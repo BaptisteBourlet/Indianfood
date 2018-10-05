@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box; }
+
+img[alt*=logo-header] {
+  width: 10em;
+  height: 10em;
+  margin-top: -5%; }
+
+div.jumbotron {
+  display: flex;
+  margin: 0;
+  background-image: url(https://www.gazettedesfemmes.ca/wp-content/uploads/sites/2/2016/03/vedettehindouisme-1200x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+p.better-place {
+  font-family: sans-serif;
+  font-style: oblique 15deg;
+  font-size: 2em; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 5em; }
+
+#carousel {
+  width: 60%;
+  margin: auto; }
+
+img.img-gal {
+  width: 100%;
+  height: 100%; }
+
+p.titre-gal {
+  font-family: sans-serif;
+  font-style: oblique 15deg;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%; }
+
+section.gal-photo-bouffe {
+  background-image: url(http://www.astuces-vacances.info/wp-content/uploads/2015/08/voyage-Inde.jpeg); }
+
+a.page-link {
+  background: #5814c5;
+  color: wheat; }
+
+ul.pagination {
+  margin-top: 3em;
+  margin-bottom: 0;
+  opacity: 0.85; }

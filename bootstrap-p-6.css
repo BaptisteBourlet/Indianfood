@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box; }
+
+img[alt*=logo-header] {
+  width: 10em;
+  height: 10em;
+  margin-top: -5%; }
+
+div.jumbotron {
+  display: flex;
+  margin: 0;
+  background-image: url(https://www.gazettedesfemmes.ca/wp-content/uploads/sites/2/2016/03/vedettehindouisme-1200x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+p.better-place {
+  font-family: sans-serif;
+  font-style: oblique 15deg;
+  font-size: 2em; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 5em; }
+
+img.img-restoch {
+  width: 100%; }
+
+iframe {
+  width: 100%;
+  margin-top: 10%; }
+
+section.carte {
+  margin-top: 5%; }
+
+section.adresse-resto {
+  margin-top: 5%;
+  text-align: center; }

@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+img[alt*=logo-header] {
+    width: 10em;
+    height: 10em;
+    margin-top: -5%;
+}
+div.jumbotron {
+    display: flex;
+    margin:0;
+    background-image: url(https://www.gazettedesfemmes.ca/wp-content/uploads/sites/2/2016/03/vedettehindouisme-1200x300.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p.better-place {
+    font-family: sans-serif;
+    font-style: oblique 15deg; 
+    font-size: 2em;
+}
+p {
+    font-family: sans-serif;
+    font-style: oblique 15deg; 
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 5em;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-style: oblique 20deg;
+    margin-top: 2%;
+}
+div.all-cards {
+    display: flex;
+    justify-content: center;
+
+}
+div.carte-news {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+div.carte-promo {
+    display: flex;
+    justify-content: center;
+}
+div.carte-events {
+    display: flex;
+    justify-content: center;
+}
+img[alt*=card-news] {
+    width: 100%;
+}
+div.news {
+    margin-top: 5em;
+    width: 20em;
+    height: 22em;
+}
+div.promo {
+    margin-top: 5em;
+    width: 20em;
+    height: 22em;  
+}
+div.events {
+    margin-top: 5em;
+    width: 20em;
+    height: 22em; 
+}
+p.info-épices {
+    display: flex;
+    justify-content: center;
+}
+div.photo-bas-de-page {
+    margin-top: 2%;
+}
+img[alt*=img-bas-de-page] {
+    width: 100%;
+}
