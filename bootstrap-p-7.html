@@ -5,11 +5,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="icon" type="image/png" href="imgs/favicon.png"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap-p-7.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -57,20 +57,20 @@
         <main>
             <form>
                 <div class="form-row">
-                    <div class="form-group col-sm-6">
+                    <div class="form-group name col-sm-6">
                         <label for="inputname">Nom</label>
                             <input type="name" class="form-control" id="inputname" placeholder="ashlemeke">
                     </div>
-                </div>
+                
                 <div class="form-group col-sm-6">
                     <label for="inputsurname">Prénom</label>
                         <input type="surname" class="form-control" id="surname" placeholder="Philipe Albert">
                 </div>
-                <div class="form-group">
+                <div class="form-group col-sm-6">
                     <label for="inputemail">Email</label>
-                        <input type="email" class="form-control" id="inputemail" placeholder="@blablabla">
+                        <input type="email" class="form-control" id="inputemail" placeholder="@blabla">
                 </div>
-                <div class="form-group col-sm-4">
+                <div class="form-group choice col-sm-4">
                     <label for="inputchoice">objet du message</label>
                         <select id="inputchoice" class="form-control">
                             <option selected>Commande</option>
@@ -79,19 +79,16 @@
                             <option>Questions</option>
                         </select>
                 </div>
-                <div class="form-group">
+                
+                <div class="form-group col-sm-12">
                     <label for="exampleFormControlTextarea1">contenu du message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            recevoir un accusé de réception
-                        </label>
-                    </div>
+                
+                <a href="#" class="btn btn-info btn-lg col-sm-2">
+                    <span class="glyphicon glyphicon-thumbs-up"></span> Envoyer
+                </a>
                 </div>
-                <button type="submit" class="btn btn-primary">Envoyé</button>
             </form>
         </main>
     </body>
